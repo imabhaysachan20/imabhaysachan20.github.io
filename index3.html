@@ -1,0 +1,43 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Open+Sans&family=Roboto:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="stylesheet.css">
+<div style="display: block;" class="container popup_container">
+    <div id ="popup_container">
+    <div class="popup_menu">
+        <img onclick="list_popup()" src="cross.png" alt="" id = "exitpopup">
+        <div class="popup_heading">
+            <div></div>
+                <img src="list.webp">
+                <span class="popup_heading_text">Lists</span>
+        </div>
+        <div class="popup_body">
+            
+            <div class="userList class">
+                <div class="list-empty-text">
+    <p>No Existing list found!</p>
+    <h2 style="color:rgb(31, 105, 255)">Create New List</h2>
+</div>
+<div class="list-items">
+    <div class="list-item class">
+        <div class="list-item-title">Dean Assignment</div>
+        <div class="list-item-date">12.Sept.2023</div>
+    </div>
+</div>
+    <form id = "newlist" action="#">
+        <input type="text" placeholder="List Name">
+        <input type="submit" name="" id="submit_list_name" value="Create">
+    </form>
+        </div>
+        <div class="class">
+            <p>Pre Defined Lists:</p>
+            <div class="block" onclick="show_list(`${branch} RollNo List`)">
+                <img src="notebook copy.png" width="90px" alt="">
+                <p>Roll No List</p></div>
+        </div>
+    </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    </div>

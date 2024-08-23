@@ -1,0 +1,98 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google tag (gtag.js) -->
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-S4Z6JC0F6W');
+</script>
+<script src="lists.js" defer></script>
+<link rel="icon" href="icon.ico" type="image/gif" sizes="16x16">
+
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Open+Sans&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    
+<title>CR Works</title>
+</head>
+<body>
+    
+    <div style="z-index: 10000000;" id = "popup"  class="popup">NO</div>
+    <div class="header">
+        <div>
+        <img style="vertical-align: middle;" src = "logo.png" width="40px">
+        CR Works
+        </div>
+        <div class = "options_header">
+            <select name = "branch" id = "branch" onChange= "set(changeFunc())">
+                <option value = "cser.js">CSE(R)</option>
+                <option value = "me.js">ME</option>
+                <option value = "ee.js">EE</option>
+            </select>
+            <img  onclick="delete_mode()" src = "remove.png" width="25px">
+            <img onclick="edit()" src = "edit.png" width="25px">
+
+        </div> 
+    </div>
+<div class="body">
+    <div class="options">
+        <div onclick = "exe(day+1,'tom')" class="op active">Tomorrow's<br>Classes</div>
+    <div onclick = "exe(day,'tod')" class="op">Today's<br>Classes</div>
+    <div onclick = "weekwise()" class="op">WeekDayWise<br>Classes</div>
+    </div>
+    <div id = "body_head" class="body_head">Tomorrow's Classes</div>
+    <div id = "classes">
+        <img id = "loading" src = "load.png">
+    </div>
+</div>
+<div class = "footer">
+    Made with love from
+    <a href = "https://www.instagram.com/imabhaysachan">Abhay Sachan</a> 
+</div>
+<button onclick="list_popup(true)" class="btn btn-primary btn-rounded-corner btn-list">
+</button>
+<div class="container popup_container">
+<div id ="popup_container">
+<div class="popup_menu">
+    <img onclick="list_popup()" src="cross.png" alt="" id = "exitpopup">
+    <div class="popup_heading">
+        <div></div>
+            <img src="list.webp">
+            <span class="popup_heading_text">Lists</span>
+    </div>
+    <div class="popup_body">
+        
+        <div class="userList class">
+<p>No Existing list found!</p>
+<h2 style="color:rgb(31, 105, 255)">Create New List</h2>
+<form id = "newlist" action="#">
+    <input type="text" placeholder="List Name">
+    <input type="submit" name="" id="submit_list_name" value="Create">
+</form>
+    </div>
+    <div class="class">
+        <p>Pre Defined Lists:</p>
+        <div class="block" onclick="show_list(`${branch} RollNo List`)">
+            <img src="notebook copy.png" width="90px" alt="">
+            <p>Roll No List</p></div>
+    </div>
+</div>
+    </div>
+</div>
+</div>
+</div>
+</div>
+<script src = "load_check.js?version='6.9'"></script>
+
+</body>
+</html>
