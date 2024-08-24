@@ -1,7 +1,7 @@
 let monday = [
   {
     Subject_Name:
-      '<br>Design and <br> Analysis of <br> Algorithm<br> (ICS 502(L))',
+      'Design and <br> Analysis of <br> Algorithm<br> (ICS 502(L))',
     Time_Start: '10:50 AM',
     Time_End: '12:30 PM',
     Faculty_Name: 'Mr. Abhishek Singh',
