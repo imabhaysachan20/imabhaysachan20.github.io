@@ -46,7 +46,7 @@ if (localStorage.getItem("branch") == "me.js") {
     body.append(createScript);
     
     createScript.addEventListener("load", ()=>{
-        createScript2.setAttribute("src","script.js?version='7.9'");
+        createScript2.setAttribute("src","script.js?v='74.9'");
         body.append(createScript2);
     })
     createScript.setAttribute("src",localStorage.getItem("branch"));
@@ -56,7 +56,7 @@ if (localStorage.getItem("branch") == "ee.js") {
     body.append(createScript);
     
     createScript.addEventListener("load", ()=>{
-        createScript2.setAttribute("src","script.js?version='7.9'");
+        createScript2.setAttribute("src","script.js?v='73.9'");
         body.append(createScript2);
     })
     createScript.setAttribute("src",localStorage.getItem("branch"));
