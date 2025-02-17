@@ -1,182 +1,198 @@
-let monday = [
-  {
-    Subject_Name:
-      'Compiler Design <br> (ICS 503(L))',
-    Time_Start: '09:00 AM',
-    Time_End: '10:50 PM',
-    Faculty_Name: 'Srishti Tiwari',
-    Venue: 'CS 312',
-  },
-  {
-    Subject_Name:
-      'Design and <br> Analysis of <br> Algorithm<br> (ICS 502(L))',
-    Time_Start: '10:50 AM',
-    Time_End: '12:30 PM',
-    Faculty_Name: 'Mr. Abhishek Singh',
-    Venue: 'CS 312',
-  },
-  {
-    Subject_Name:
-      '<b>Section 1:</b> <br>Design and <br> Analysis of <br> Algorithm Lab<br> (ICS 552)',
-    Time_Start: '02:00 PM',
-    Time_End: '03:40 PM',
-    Faculty_Name: 'Mr.Abhishek Singh',
-    Venue: 'OS Lab',
-  },
-  {
-    Subject_Name:
-      '<b>Section 2:</b> <br> Database Management <br> System Lab <br>ICS 551',
-    Time_Start: '02:00 PM',
-    Time_End: '03:40 PM',
-    Faculty_Name: 'Prof. D S Yadav',
-    Venue: 'DBMS Lab',
-  },
-];
-let tuesday = [
-  {
-    Subject_Name: 'Data Analytics<br>(ICS 054)',
-    Time_Start: '9:10 AM',
-    Time_End: '10:50 AM',
-    Faculty_Name: 'Ms. Diksha Sharma',
-    Venue: 'CS 312',
-  },
-  {
-    Subject_Name: 'Database Management<br>System<br>(ICS 501)',
-    Time_Start: '10:50 AM',
-    Time_End: '12:30 PM',
-    Faculty_Name: 'Prof. D S Yadav',
-    Venue: 'CS 312',
-  },
-  {
-    Subject_Name:
-      '<b>Section 1:</b><br> Database Management <br> System Lab<br> (ICS 551)',
-    Time_Start: '02:00 PM',
-    Time_End: '03:40 PM',
-    Faculty_Name: 'Prof. D S Yadav',
-    Venue: 'DBMS Lab',
-  },
 
-  {
-    Subject_Name: '<b>Section 2:</b><br> Compiler Design Lab <br>(ICS 553) ',
-    Time_Start: '02:00 PM',
-    Time_End: '03:40 PM',
-    Faculty_Name: '#',
-    Venue: 'OS Lab',
-  },
-  {
-    Subject_Name:
-      'Compiler Design <br> (ICS 503(L))',
-    Time_Start: '03:40 PM',
-    Time_End: '04:30 PM',
-    Faculty_Name: 'Srishti Tiwari',
-    Venue: 'CS 312',
-  },
+let monday = [
+    {
+Subject_Name : "Computer Network <br> (ICS 603)",
+Time_Start: "10:00 AM",
+Time_End: "11:40 AM",
+Faculty_Name: "Mr. Abhishek Singh",
+Venue: "CS - 310"
+    },
+    {
+Subject_Name : "Open Elective <br>(ICS 06*)",
+Time_Start: "11:40 AM",
+Time_End: "12:30 PM",
+Faculty_Name: "-",
+Venue: "CS - 310"
+    },
+    {
+        Subject_Name : "<b>Section 1:</b> <br> Software Engineering <br>Lab",
+        Time_Start: "02:00 PM",
+        Time_End: "03:40 PM",
+        Faculty_Name: "Ms Srishti Tiwari",
+        Venue: "OS LAB"
+            }
+            ,
+            {
+                
+        Subject_Name : "<b>Section 2:</b> <br> Computer <br> Network  Lab",
+        Time_Start: "02:00 PM",
+        Time_End: "03:40 PM",
+        Faculty_Name: "Mr. Abhishek Singh",
+        Venue: "DBMS Lab"
+            }
+            ,
+    {
+Subject_Name : "Software Engineering <br> (ICS 601)",
+Time_Start: "03:40 PM",
+Time_End: "04:30 PM",
+Faculty_Name: "Ms Srishti Tiwari",
+Venue: "CS - 310"
+    }
+
+]
+let tuesday = [
+    {
+Subject_Name : "Software Engineering<br>(ICS 601)",
+Time_Start: "09:10 AM",
+Time_End: "10:50 AM",
+Faculty_Name: "Ms Srishti Tiwari",
+Venue: "CS - 310"
+    },
+    {
+Subject_Name : "Open Elective<br>(ICS 06*)",
+Time_Start: "10:50 AM",
+Time_End: "12:30 PM",
+Faculty_Name: "-",
+Venue: "CS - 310"
+    },
+    {
+        
+Subject_Name : "<b>Section 1:</b> <br> Artificial Intelligence <br>Lab",
+Time_Start: "02:00 PM",
+Time_End: "03:40 AM",
+Faculty_Name: "Dr. Promila Bahadur",
+Venue: "DBMS LAB"
+    },
+
+    {
+        
+Subject_Name : "<b>Section 2:</b> <br> Software Engineering<br>Lab",
+Time_Start: "02:00 PM",
+Time_End: "03:40 PM",
+Faculty_Name: "Ms Srishti Tiwari",
+Venue: "OS Lab"
+    }
+    ,
+    {
+        Subject_Name : "Artificial Intelligence <br>(ICS 602)",
+        Time_Start: "03:40 PM",
+        Time_End: "04:30 PM",
+        Faculty_Name: "Dr. Promila Bahadur",
+        Venue: "CS - 310"
+            }
+    
 ];
 let wed = [
-  {
-    Subject_Name: 'Machine Learning <br>Technique <br> (ICS 059)',
-    Time_Start: '10:50 AM',
-    Time_End: '12:30 PM',
-    Faculty_Name: 'Dr.Pawan Kumar Tiwari',
-    Venue: 'CS 312',
-  },
+    {
+        
+        Subject_Name : "<b> Minor Degree </b>",
+        Time_Start: "09:00 AM",
+        Time_End: "10:50 AM",
+        Faculty_Name: "-",
+        Venue: "-"
+            },
+    
+    {
+Subject_Name : "Artificial Intelligence <br> (ICS 602)",
+Time_Start: "10:50 AM",
+Time_End: "12:30 PM",
+Faculty_Name: "Dr. Promila Bahadur",
+Venue: "CS - 310"
+    },
 
-  {
-    Subject_Name: ' Data Analytics<br> (ICS 054(L))',
-    Time_Start: '02:00 PM',
-    Time_End: '02:50 PM',
-    Faculty_Name: 'Ms. Diksha sharma',
-    Venue: 'CS 312',
-  },
-  {
-    Subject_Name:
-      'Design and <br> Analysis of <br> Algorithms <br> (ICS 502(T2))',
-    Time_Start: '02:50 PM',
-    Time_End: '03:40 PM',
-    Faculty_Name: 'Mr. Abhishek Singh',
-    Venue: 'CS 312',
-  },
-  {
-    Subject_Name: 'Database Management <br> System <br> (ICS 501(T2))',
-    Time_Start: '03:40 PM',
-    Time_End: '04:30 PM',
-    Faculty_Name: 'Prof D S Yadav',
-    Venue: 'CS 312',
-  },
-];
+{
+Subject_Name : "Application of <br> Soft Computing <br> (ICS 064)",
+Time_Start: "02:00 PM",
+Time_End: "02:50 PM",
+Faculty_Name: "Dr. Pawan Kumar Tiwari",
+Venue: "CS - 310"
+    },
+
+{Subject_Name : "<b>Section 2:</b> <br> Seminar/ Startup <br> (ICS 654)",
+Time_Start: "02:50 PM",
+Time_End: "04:30 PM",
+Faculty_Name: "Dr. Pawan Kumar Tiwari",
+Venue: "CS - 310"
+    }
+
+]
+
 
 let thus = [
-  
-  {
-    Subject_Name: 'Machine Learning <br> Technique <br> (ICS 059(L))',
-    Time_Start: '10:00 AM',
-    Time_End: '10:50 PM',
-    Faculty_Name: 'Dr. Pawan Kumar tiwari',
-    Venue: 'CS 312',
-  },
-  {
-    Subject_Name: 'Database Management <br> System <br> (ICS 501(L))',
-    Time_Start: '10:50 AM',
-    Time_End: '12:30 PM',
-    Faculty_Name: 'Prof. D S Yadav',
-    Venue: 'CS 312',
-  },
-  {
-    Subject_Name: '<b>Section 1: </b> <br>Compiler Design Lab <br> (ICS 553)',
-    Time_Start: '02:00 PM',
-    Time_End: '03:40 PM',
-    Faculty_Name: '#',
-    Venue: 'DBMS Lab',
-  },
-  {
-    Subject_Name: '<b>Section 2: </b> <br>Design and <br> Analysis of <br> Algorithms<br> (ICS 552)',
-    Time_Start: '02:00 PM',
-    Time_End: '03:40 PM',
-    Faculty_Name: 'Mr. Abhishek Singh',
-    Venue: 'OS Lab',
-  },
-];
-let fri = [
-  {
-    Subject_Name:
-      'Design and <br> Analysis of <br> Algorithms <br>(ICS 502(L))',
-    Time_Start: '10:50 AM',
-    Time_End: '12:30 AM',
-    Faculty_Name: 'Mr.Abhishek Singh',
-    Venue: 'CS 312',
-  },
+    {
+        Subject_Name : "Software Engineering<br>(ICS 601)",
+        Time_Start: "09:10 AM",
+        Time_End: "10:50 AM",
+        Faculty_Name: "Ms Srishti Tiwari",
+        Venue: "CS - 310"
+            },
 
-  {
-    Subject_Name: 'Remedial <br> Counselling Session<br>',
-    Time_Start: '02:50 PM',
-    Time_End: '04:30 PM',
-    Faculty_Name: 'Unknown',
-    Venue: 'CS 312',
-  },
-];
+            {
+                Subject_Name : "Application of <br> Soft Computing <br> (ICS 064)",
+                Time_Start: "10:50 PM",
+                Time_End: "12:30 PM",
+                Faculty_Name: "Dr. Pawan Kumar Tiwari",
+                Venue: "CS - 310"
+                    },
+                    {
+                
+                        Subject_Name : "<b>Section 1:</b> <br> Computer <br> Network  Lab",
+                        Time_Start: "02:00 PM",
+                        Time_End: "03:40 PM",
+                        Faculty_Name: "Mr. Abhishek Singh",
+                        Venue: "DBMS Lab"
+                            }
+                            ,
+    
+                    {
+        
+                        Subject_Name : "<b>Section 2:</b> <br> Artificial Intelligence <br>Lab",
+                        Time_Start: "02:00 PM",
+                        Time_End: "03:40 AM",
+                        Faculty_Name: "Dr. Promila Bahadur",
+                        Venue: "DBMS LAB"
+                            }
+]
+let fri = [
+    {
+        Subject_Name : "Computer Network <br> (ICS 603)",
+        Time_Start: "10:00 AM",
+        Time_End: "10:50 AM",
+        Faculty_Name: "Mr. Abhishek Singh",
+        Venue: "CS - 310"
+            },
+        {
+            Subject_Name : "Artificial Intelligence <br> (ICS 602)",
+            Time_Start: "10:50 AM",
+            Time_End: "12:30 PM",
+            Faculty_Name: "Dr. Promila Bahadur",
+            Venue: "CS - 310"
+                },
+
+             {Subject_Name : "<b>Section 2:</b> <br> Seminar/ Startup <br> (ICS 654)",
+            Time_Start: "02:00 PM",
+            Time_End: "03:40 PM",
+            Faculty_Name: "Dr. Pawan Kumar Tiwari",
+            Venue: "CS - 310"
+             }
+                    
+]
 let sat = [
- {
-    Subject_Name:
-      'Compiler Design <br> (ICS 503(L))',
-    Time_Start: '10:50 AM',
-    Time_End: '12:30 PM',
-    Faculty_Name: 'Srishti Tiwari',
-    Venue: 'CS 312',
-  },
-  {
-    Subject_Name:
-      '<b> Section 1</b><br> Mini Project<br> (ICS 554)',
-    Time_Start: '02:00 AM',
-    Time_End: '03:40 PM',
-    Faculty_Name: 'Dr. Natthan Singh',
-    Venue: 'OS Lab',
-  },
-  {
-    Subject_Name:
-      ' <b> Section 2</b><br>Mini Project <br> (ICS 554)',
-    Time_Start: '02:00 AM',
-    Time_End: '03:40 PM',
-    Faculty_Name: 'Dr. Akshita Singh',
-    Venue: 'DBMS Lab',
-  },
-];
+    {
+        Subject_Name : "Computer Network <br> (ICS 603)",
+        Time_Start: "10:50 AM",
+        Time_End: "12:30 AM",
+        Faculty_Name: "Mr. Abhishek Singh",
+        Venue: "CS - 310"
+            },
+    {
+        
+        Subject_Name : "Minor Degree",
+        Time_Start: "02:00 PM",
+        Time_End: "03:40 PM",
+        Faculty_Name: "-",
+        Venue: "-"
+            }
+    
+
+]
