@@ -34,7 +34,7 @@ function changeFunc() {
 if (localStorage.getItem("branch") == "cser.js") {
     body.append(createScript);
     createScript.addEventListener("load", ()=>{
-        createScript2.setAttribute("src","script.js");
+        createScript2.setAttribute("src","script.js?v='34'");
         body.append(createScript2);
         body.append(createScript3);
         createScript3.setAttribute("src", "cser_student.js")
